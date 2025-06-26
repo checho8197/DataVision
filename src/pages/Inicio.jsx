@@ -63,7 +63,7 @@ function Inicio() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            ¿Tu empresa es personal o profesional?
+            ¿Qué tipo de empresas tienes?
           </motion.h2>
 
           <motion.div
@@ -76,14 +76,14 @@ function Inicio() {
               className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-6 py-4 rounded-lg shadow-lg transition w-40"
               onClick={() => alert("Seleccionaste Personal")}
             >
-              Personal
+              Independiente
             </button>
 
             <button
               className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-6 py-4 rounded-lg shadow-lg transition w-40"
               onClick={() => alert("Seleccionaste Profesional")}
             >
-              Profesional
+              Corporativa
             </button>
           </motion.div>
 
